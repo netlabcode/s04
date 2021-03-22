@@ -18,7 +18,7 @@ PORTS2 = 883
 
 
 #Database Connection
-conn = psycopg2.connect(host="131.180.165.5",database="crpg", user="postgres", password="crpg")
+conn = psycopg2.connect(host="131.180.165.7",database="CRoF", user="postgres", password="crpg")
 conn.autocommit = True
 cursor = conn.cursor()
 
