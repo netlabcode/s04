@@ -5,7 +5,7 @@ import _thread
 import time
 import socket
 
-PORT1 = 8804
+PORT1 = 8814
  
 conn = psycopg2.connect(host="131.180.165.7",database="CRoF",user="postgres", password="crpg")
 
