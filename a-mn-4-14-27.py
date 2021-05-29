@@ -254,32 +254,32 @@ def emptyNet():
 
     time.sleep(2)
 
-    info( net[ 's04m1' ].cmd( 'python3 as04m1.py &amp' ) )
-    info( net[ 's04m2' ].cmd( 'python3 as04m2.py &amp' ) )
-    info( net[ 's04m3' ].cmd( 'python3 as04m3.py &amp' ) )
-    info( net[ 's04m4' ].cmd( 'python3 as04m4.py &amp' ) )
-    info( net[ 's04m5' ].cmd( 'python3 as04m5.py &amp' ) )
-    info( net[ 's04m6' ].cmd( 'python3 as04m6.py &amp' ) )
+    info( net[ 's04m1' ].cmd( 'python3.6 as04m1.py &amp' ) )
+    info( net[ 's04m2' ].cmd( 'python3.6 as04m2.py &amp' ) )
+    info( net[ 's04m3' ].cmd( 'python3.6 as04m3.py &amp' ) )
+    info( net[ 's04m4' ].cmd( 'python3.6 as04m4.py &amp' ) )
+    info( net[ 's04m5' ].cmd( 'python3.6 as04m5.py &amp' ) )
+    info( net[ 's04m6' ].cmd( 'python3.6 as04m6.py &amp' ) )
 
-    info( net[ 's14m1' ].cmd( 'python3 as14m1.py &amp' ) )
-    info( net[ 's14m2' ].cmd( 'python3 as14m2.py &amp' ) )
-    info( net[ 's14m3' ].cmd( 'python3 as14m3.py &amp' ) )
+    info( net[ 's14m1' ].cmd( 'python3.6 as14m1.py &amp' ) )
+    info( net[ 's14m2' ].cmd( 'python3.6 as14m2.py &amp' ) )
+    info( net[ 's14m3' ].cmd( 'python3.6 as14m3.py &amp' ) )
 
-    info( net[ 's27m1' ].cmd( 'python3 as27m1.py &amp' ) )
-    info( net[ 's27m2' ].cmd( 'python3 as27m2.py &amp' ) )
-    info( net[ 's27m3' ].cmd( 'python3 as27m3.py &amp' ) )
-
-    time.sleep(2)
-
-    info( net[ 's04gw' ].cmd( 'python3 as04gdb.py &amp' ) )
-    info( net[ 's14gw' ].cmd( 'python3 as14gdb.py &amp' ) )
-    info( net[ 's27gw' ].cmd( 'python3 as27gdb.py &amp' ) )
+    info( net[ 's27m1' ].cmd( 'python3.6 as27m1.py &amp' ) )
+    info( net[ 's27m2' ].cmd( 'python3.6 as27m2.py &amp' ) )
+    info( net[ 's27m3' ].cmd( 'python3.6 as27m3.py &amp' ) )
 
     time.sleep(2)
 
-    info( net[ 's04gw' ].cmd( 'python3 as04gcc.py &amp' ) )
-    info( net[ 's14gw' ].cmd( 'python3 as14gcc.py &amp' ) )
-    info( net[ 's27gw' ].cmd( 'python3 as27gcc.py &amp' ) )
+    info( net[ 's04gw' ].cmd( 'python3.6 as04gdb.py &amp' ) )
+    info( net[ 's14gw' ].cmd( 'python3.6 as14gdb.py &amp' ) )
+    info( net[ 's27gw' ].cmd( 'python3.6 as27gdb.py &amp' ) )
+
+    time.sleep(2)
+
+    info( net[ 's04gw' ].cmd( 'python3.6 as04gcc.py &amp' ) )
+    info( net[ 's14gw' ].cmd( 'python3.6 as14gcc.py &amp' ) )
+    info( net[ 's27gw' ].cmd( 'python3.6 as27gcc.py &amp' ) )
 
 
 
